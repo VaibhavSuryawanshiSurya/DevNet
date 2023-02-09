@@ -1,0 +1,5 @@
+Resources: https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html 
+
+Network Services Orchestrator Community https://community.cisco.com/t5/nso-developer-hub/ct-p/5672j-dev-nso 
+
+Cisco Network Services Orchestrator Dev Center Community: https://developer.cisco.com/site/nso/

@@ -1,0 +1,201 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Initialize empty git repository
+
+	- git init
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Check status
+
+	- git status
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Add file
+	
+	#To adding single file
+	- git add (filename)
+	
+	# add all files or entire local repository
+	- git add .
+	- git add *.*
+	- git add -A
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Remove files
+
+	#To remove directory
+	- git rm -r (foldername)
+
+	#To remove single file
+	- git rm -f (foldername)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Move or rename a file 
+	
+	- git mv (source) (destination)
+
+	#When trying to overwrite an existing file
+	- git mv -f (source) (destination)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Commit added files
+
+	- git commit -m <"Message">
+
+	#Add & commit at the same time
+	- git commit (-a) -m <"Message">    **** -a == git add -A *** 
+		
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Clone 
+
+	- git clone (repository-url)
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Push
+
+  [
+	#git remote add command
+	- git remote add (name) (url)
+	
+	Ex: git remote add origin git@github.com:VaibhavSuryawanshiSurya/GitPresentation-.git
+
+	#git push command
+	- git push -u (remotename) (branchname)
+	Ex:  git push -u origin main
+  ]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Pull
+
+	
+	#git pull command
+	- git pull (url) 
+	Ex:   git pull git@github.com:VaibhavSuryawanshiSurya/GitPresentation-.git
+
+	#pull from same project butfrom diff beanch
+	git pull (remotename) (branchname)
+	Ex:  git pull origin main
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Branch
+	
+	#Branch creation command
+	- git branch -c  (branchname) 
+	Ex:   git branch -c vaibhav
+
+	#Change/switch branch
+	- git checkout (branchname) 
+	Ex:  git checkout vaibhav
+
+	#Create & Switch at the same time
+	- git checkout -b (branchname)
+	Ex:  git checkout suhas
+
+	#create a branch & push to the GitHub repository
+	- git push (remotename) HEAD
+
+	#Delete the branch.
+	- git branch --delete --force <branch name>
+
+	
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> marge 
+
+	git marge (branch_name)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> diff
+
+	#differences between your working directory and the index (that is, what isn’t yet staged)
+	- git diff
+	- git diff (filename)
+
+	#changes between the index and your last commit.
+	- git diff --cached
+
+	#differences between your most recent commit and your current working directory. It is very useful for seeing what will happen with your next commit.
+	- git diff HEAD
+
+	#To see the changes in color format
+	- git diff --color-words
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Undo changes in stage area files
+	
+	# unstage file
+	- git reset (filename)
+	
+	#checkout files
+	- git checkout (filesname)
+	- git checkout .     ***for all files***
+	
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> To check History or version
+
+	# Shows all history of commit version
+	- git log
+
+	# Shows all commit version message
+	- git log --oneline
+	- git log --oneline -n <Line count>
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Change ur working directory to any DETACHED HEAD state
+
+	- git checkout <Version Id>
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> To add change in prvious commit or replace previous HEAD
+
+
+	- gir commit --amend -m "(ammended) message"
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+----> Reset to previous version
+
+	- git reset <Version Id>
+
+		
+
+
+
+
+
+
+
+
+**********************************************************************************************************************
+
+----> Create GitHub Repo from CommandLine
+
+	curl - "GitHub Username" https://api.github.com/user/repos -d {"name":"<RepoName>", "private":false}
+
+	EX: curl - "VaibhavSuryawanshiSurya" https://api.github.com/user/repos -d {"name":"FirstRepo", "private":false}
+	    Ask for Password
+
+
+
+
+
+

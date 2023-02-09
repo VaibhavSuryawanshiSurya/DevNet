@@ -1,0 +1,17 @@
+<People>
+    <Person Id="1">
+        <FirstName>VAibhav</FirstName>
+        <LastName>Suryawanshi</LastName>
+        <Email>vaibhav.suryawanshi@gmail.com</Email>
+    </Person>
+    <Person Id="2">
+        <FirstName>Vishal</FirstName>
+        <LastName>Deshmukh</LastName>
+        <Email>vishal.deshmukh@gmail.com</Email>
+    </Person>
+    <Person Id="3">
+        <FirstName>Aniket</FirstName>
+        <LastName>Shigade</LastName>
+        <Email>aniket.shigade@gmail.com</Email>
+    </Person>
+</People>

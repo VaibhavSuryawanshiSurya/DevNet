@@ -1,0 +1,22 @@
+{
+    "people":[
+        {
+            "Id":"1",
+            "FirstName":"VAibhav",
+            "LastName":"Suryawanshi",
+            "Email":"vaibhav.suryawanshi@gmail.com"
+        },
+        {
+            "Id":"2",
+            "FirstName":"Vishal",
+            "LastName":"Deshmukh",
+            "Email":"vishal.deshmukh@gmail.com"
+        },
+        {
+            "Id":"3",
+            "FirstName":"Aniket",
+            "LastName":"Shigade",
+            "Email":"aniket.shigade@gmail.com"
+        }
+    ]
+}

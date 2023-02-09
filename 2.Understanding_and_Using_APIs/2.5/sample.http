@@ -1,0 +1,17 @@
+# https://swapi.dev/api/people/2/
+
+# https://swapi.dev/api/planets/1
+
+#   
+
+# https://www.google.com
+
+# http://127.0.0.1:5000/store
+
+# https://api.discogs.com/releases/249504
+
+# pagination ---> 
+# https://api.discogs.com/labels/1/releases?page=2&per_page=25
+
+https://api.discogs.com/masters/1/versions?page=2&per_page=100
+

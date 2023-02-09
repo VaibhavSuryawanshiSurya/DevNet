@@ -1,0 +1,868 @@
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/G                                                                                                                itPresentation
+$ git init
+Initialized empty Git repository in D:/DevNet/1.Software_Development_and_Design/1.8/GitPresentation/.git/
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (master)
+$ git add .
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (master)
+$ git commit -m "Initial Commit"
+[master (root-commit) 666d3e4] Initial Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (master)
+$ git branch -M main
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git remote add origin git@github.com:VaibhavSuryawanshiSurya/GitPresentation-.git
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git push -u origin main
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 230 bytes | 76.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:VaibhavSuryawanshiSurya/GitPresentation-.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ vs .
+bash: vs: command not found
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ .vs
+bash: .vs: command not found
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ ...
+bash: ...: command not found
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ code .
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ code .
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        sample.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git add .
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git commit -m "Add sample.html File"
+[main 9bb1d8d] Add sample.html File
+ 1 file changed, 1 insertion(+)
+ create mode 100644 sample.html
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git checkout swati
+Switched to a new branch 'swati'
+Branch 'swati' set up to track remote branch 'swati' from 'origin'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (swati)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'swati' on GitHub by visiting:
+remote:      https://github.com/VaibhavSuryawanshiSurya/GitPresentation-/pull/new/swati
+remote:
+To github.com:VaibhavSuryawanshiSurya/GitPresentation-.git
+ * [new branch]      swati -> swati
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (swati)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 320 bytes | 160.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:VaibhavSuryawanshiSurya/GitPresentation-.git
+   7bf4931..9bb1d8d  main -> main
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ ^C
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git branch
+* main
+  swati
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git branch -c vaibhav
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git branch
+* main
+  swati
+  vaibhav
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git push origin head
+Everything up-to-date
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git push origin HEAD:main
+Everything up-to-date
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git checkout vaibhav
+Switched to branch 'vaibhav'
+Your branch is up to date with 'origin/main'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (vaibhav)
+$ git push origin head
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'vaibhav' on GitHub by visiting:
+remote:      https://github.com/VaibhavSuryawanshiSurya/GitPresentation-/pull/new/vaibhav
+remote:
+To github.com:VaibhavSuryawanshiSurya/GitPresentation-.git
+ * [new branch]      head -> vaibhav
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (vaibhav)
+$ git status
+On branch vaibhav
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   sample.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (vaibhav)
+$ git diff
+diff --git a/sample.txt b/sample.txt
+index 05a682b..0eb1116 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1 +1 @@
+-Hello!
+\ No newline at end of file
++Hello! Vaibhav
+\ No newline at end of file
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (vaibhav)
+$ git diff sample.txt
+diff --git a/sample.txt b/sample.txt
+index 05a682b..0eb1116 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1 +1 @@
+-Hello!
+\ No newline at end of file
++Hello! Vaibhav
+\ No newline at end of file
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (vaibhav)
+$ git checkout main
+Switched to branch 'main'
+M       sample.txt
+Your branch is up to date with 'origin/main'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   sample.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git add .
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git commit -m "Modify sample.txt"
+[main 5bdf2e6] Modify sample.txt
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git push -u origin main
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 102.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:VaibhavSuryawanshiSurya/GitPresentation-.git
+   9bb1d8d..5bdf2e6  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff --staged sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff --staged sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   sample.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff sample.txt
+diff --git a/sample.txt b/sample.txt
+index 0eb1116..72b343d 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1 +1,2 @@
+-Hello! Vaibhav
+\ No newline at end of file
++Hello! Vaibhav
++Ping me when u free
+\ No newline at end of file
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff --cached
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff--cached
+git: 'diff--cached' is not a git command. See 'git --help'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff --cached sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff HEAD
+diff --git a/sample.txt b/sample.txt
+index 0eb1116..72b343d 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1 +1,2 @@
+-Hello! Vaibhav
+\ No newline at end of file
++Hello! Vaibhav
++Ping me when u free
+\ No newline at end of file
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   sample.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git add .
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff HEAD
+diff --git a/sample.txt b/sample.txt
+index 0eb1116..72b343d 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1 +1,2 @@
+-Hello! Vaibhav
+\ No newline at end of file
++Hello! Vaibhav
++Ping me when u free
+\ No newline at end of file
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff --cached
+diff --git a/sample.txt b/sample.txt
+index 0eb1116..72b343d 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1 +1,2 @@
+-Hello! Vaibhav
+\ No newline at end of file
++Hello! Vaibhav
++Ping me when u free
+\ No newline at end of file
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ get checkout swati
+bash: get: command not found
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git branch
+* main
+  swati
+  vaibhav
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git swati
+git: 'swati' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git checkout swati
+error: Your local changes to the following files would be overwritten by checkout:
+        sample.txt
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff --cached
+diff --git a/sample.txt b/sample.txt
+index 0eb1116..72b343d 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1 +1,2 @@
+-Hello! Vaibhav
+\ No newline at end of file
++Hello! Vaibhav
++Ping me when u free
+\ No newline at end of file
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git commit -m "2nd line added in sample.txt"
+[main 856954c] 2nd line added in sample.txt
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git checkout swati
+Switched to branch 'swati'
+Your branch is up to date with 'origin/swati'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (swati)
+$ git pull main swati
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (swati)
+$ git pull origin main
+From github.com:VaibhavSuryawanshiSurya/GitPresentation-
+ * branch            main       -> FETCH_HEAD
+Updating 666d3e4..5bdf2e6
+Fast-forward
+ sample.html | 1 +
+ sample.txt  | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 sample.html
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (swati)
+$ git status
+On branch swati
+Your branch is ahead of 'origin/swati' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        sample.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (swati)
+$ git add -A
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (swati)
+$ git commit -m "add sample,py file in swati branch"
+[swati 7fcbe61] add sample,py file in swati branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 sample.py
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (swati)
+$ git push -u origin swati
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 342 bytes | 114.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:VaibhavSuryawanshiSurya/GitPresentation-.git
+   666d3e4..7fcbe61  swati -> swati
+Branch 'swati' set up to track remote branch 'swati' from 'origin'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (swati)
+$ git branch
+  main
+* swati
+  vaibhav
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (swati)
+$ dir
+sample.html  sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (vaibhav)
+$ git checkout
+Your branch is behind 'origin/main' by 4 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (vaibhav)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ dir
+sample.html  sample.py  sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git checkout vaibhav
+Switched to branch 'vaibhav'
+Your branch is behind 'origin/main' by 4 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (vaibhav)
+$ dir
+sample.html  sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (vaibhav)
+$ git pull origin main
+From github.com:VaibhavSuryawanshiSurya/GitPresentation-
+ * branch            main       -> FETCH_HEAD
+Updating 9bb1d8d..5a70c30
+Fast-forward
+ sample.py  | 1 +
+ sample.txt | 3 ++-
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 sample.py
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (vaibhav)
+$ dir
+sample.html  sample.py  sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (vaibhav)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ branch
+bash: branch: command not found
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git branch
+* main
+  swati
+  vaibhav
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git log
+commit 5a70c301ce3efe08937cfb55886f7b3293450bcd (HEAD -> main, origin/main, vaibhav)
+Merge: 856954c 7fcbe61
+Author: VaibhavSuryawanshiSurya <er.vaibhavsuryawanshi@gmail.com>
+Date:   Wed Jan 4 15:17:18 2023 +0530
+
+    Merge branch 'main' of github.com:VaibhavSuryawanshiSurya/GitPresentation- into main
+
+commit 7fcbe6159765b78571c41975bfe41043b88461ae (origin/swati, swati)
+Author: VaibhavSuryawanshiSurya <er.vaibhavsuryawanshi@gmail.com>
+Date:   Wed Jan 4 14:43:35 2023 +0530
+
+    add sample,py file in swati branch
+
+commit 856954cd3b762fc78c08ee6996f9500448e292b2
+Author: VaibhavSuryawanshiSurya <er.vaibhavsuryawanshi@gmail.com>
+Date:   Wed Jan 4 14:39:10 2023 +0530
+
+    2nd line added in sample.txt
+
+commit 5bdf2e646e2e7366da766d7238eb3205b4540815
+Author: VaibhavSuryawanshiSurya <er.vaibhavsuryawanshi@gmail.com>
+Date:   Wed Jan 4 13:58:31 2023 +0530
+
+    Modify sample.txt
+
+commit 9bb1d8dffcf2fb3dffed37a85adf1702a01a4cdb (origin/vaibhav)
+Author: VaibhavSuryawanshiSurya <er.vaibhavsuryawanshi@gmail.com>
+Date:   Wed Jan 4 12:24:35 2023 +0530
+
+    Add sample.html File
+
+commit 7bf493183290a5b97cb2d268d62d971c802b8a98
+Author: VaibhavSuryawanshiSurya <er.vaibhavsuryawanshi@gmail.com>
+Date:   Wed Jan 4 12:19:42 2023 +0530
+
+    Add Hello! in file
+
+commit 666d3e45e1ef58338a5fdeb42e335cb89163fa40
+Author: VaibhavSuryawanshiSurya <er.vaibhavsuryawanshi@gmail.com>
+Date:   Wed Jan 4 12:01:40 2023 +0530
+
+    Initial Commit
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git log oneline
+fatal: ambiguous argument 'oneline': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git log --oneline
+5a70c30 (HEAD -> main, origin/main, vaibhav) Merge branch 'main' of github.com:VaibhavSuryawanshiSurya/GitPresentation- into main
+7fcbe61 (origin/swati, swati) add sample,py file in swati branch
+856954c 2nd line added in sample.txt
+5bdf2e6 Modify sample.txt
+9bb1d8d (origin/vaibhav) Add sample.html File
+7bf4931 Add Hello! in file
+666d3e4 Initial Commit
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ @ -1 +1,2 @@
+bash: @: command not found
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ code .
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   sample.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff
+diff --git a/sample.py b/sample.py
+index 6fb3b6e..04bcb60 100644
+--- a/sample.py
++++ b/sample.py
+@@ -1 +1,2 @@
+-# Hello! Swati
+\ No newline at end of file
++# Hello! Swati
++# hello
+\ No newline at end of file
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git add .
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git reset sample.py
+Unstaged changes after reset:
+M       sample.py
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git checkout sample.py
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git log --oneline
+5a70c30 (HEAD -> main, origin/main, vaibhav) Merge branch 'main' of github.com:VaibhavSuryawanshiSurya/GitPrese                                                                                 ntation- into main
+7fcbe61 (origin/swati, swati) add sample,py file in swati branch
+856954c 2nd line added in sample.txt
+5bdf2e6 Modify sample.txt
+9bb1d8d (origin/vaibhav) Add sample.html File
+7bf4931 Add Hello! in file
+666d3e4 Initial Commit
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ ^C
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git checkout 5bdf2e6
+Note: checking out '5bdf2e6'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 5bdf2e6 Modify sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation ((5bdf2e6...))
+$ git checkout head
+HEAD is now at 5bdf2e6 Modify sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation ((5bdf2e6...))
+$ git checkout main
+Previous HEAD position was 5bdf2e6 Modify sample.txt
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation (main)
+$ git checkout head
+Note: checking out 'head'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 5a70c30 Merge branch 'main' of github.com:VaibhavSuryawanshiSurya/GitPresentation- into main
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation ((5a70c30...))
+$ git diff --color-words
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   ((5a70c30...))
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git log --oneline
+5a70c30 (HEAD -> main, origin/main, vaibhav) Merge branch 'main' of github.com:VaibhavSuryawan                                                                                                  shiSurya/GitPresentation- into main
+7fcbe61 (origin/swati, swati) add sample,py file in swati branch
+856954c 2nd line added in sample.txt
+5bdf2e6 Modify sample.txt
+9bb1d8d (origin/vaibhav) Add sample.html File
+7bf4931 Add Hello! in file
+666d3e4 Initial Commit
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff --color-words
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff --color-words sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   sample.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff --color-words sample.txt
+diff --git a/sample.txt b/sample.txt
+index 72b343d..3a21a6a 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1,2 +1,3 @@
+Hello! Vaibhav
+Ping me when u free
+Call?
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff
+diff --git a/sample.txt b/sample.txt
+index 72b343d..3a21a6a 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1,2 +1,3 @@
+ Hello! Vaibhav
+-Ping me when u free
+\ No newline at end of file
++Ping me when u free
++Call?
+\ No newline at end of file
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff
+diff --git a/sample.txt b/sample.txt
+index 72b343d..836a06f 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1,2 +1,3 @@
+-Hello! Vaibhav
+-Ping me when u free
+\ No newline at end of file
++Hello!
++Ping me when u free
++Call?
+\ No newline at end of file
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff --color-words
+diff --git a/sample.txt b/sample.txt
+index 72b343d..836a06f 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1,2 +1,3 @@
+Hello!Vaibhav
+Ping me when u free
+Call?
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ ^C
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git tag -l
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git switch swati
+git: 'switch' is not a git command. See 'git --help'.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git push
+Everything up-to-date
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   sample.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git commit commit -a -m "Addd 3rd line in sample.txt"
+fatal: Paths with -a does not make sense.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   sample.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git add *.*
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   sample.txt
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git commit commit -m "Addd 3rd line in sample.txt"
+error: pathspec 'commit' did not match any file(s) known to git.
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff HEAD
+diff --git a/sample.txt b/sample.txt
+index 72b343d..836a06f 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1,2 +1,3 @@
+-Hello! Vaibhav
+-Ping me when u free
+\ No newline at end of file
++Hello!
++Ping me when u free
++Call?
+\ No newline at end of file
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff HEAD --color-words
+diff --git a/sample.txt b/sample.txt
+index 72b343d..836a06f 100644
+--- a/sample.txt
++++ b/sample.txt
+@@ -1,2 +1,3 @@
+Hello!Vaibhav
+Ping me when u free
+Call?
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   sample.txt
+
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git commit -m "Addd 3rd line in sample.txt"
+[main 794d793] Addd 3rd line in sample.txt
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff HEAD --color-words
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$ git diff --cached
+
+VS64674@ADSW42SLPC5848 MINGW64 /d/DevNet/1.Software_Development_and_Design/1.8/GitPresentation                                                                                                   (main)
+$

@@ -1,0 +1,90 @@
+**************************************************************************************************************************
+						Directory Navigation
+**************************************************************************************************************************
+
+Changes directory:
+
+	$ cd / 			#Changes directory to the root directory
+	$ cd/home/username   	#Changes directory to the /home/username directory
+	$ cd test 		#Changes directory to the test folder
+	$ cd .. 		#Moves up one directory
+
+------------------------------------------------------------------------------------
+
+Print Working Directory:
+
+	$ pwd 			#Print your current working directory
+
+------------------------------------------------------------------------------------
+
+List of Current Directory:
+
+	$ ls 			#Lists files and directories in the current working directory
+	$ ls -a 		#Lists everything in the current directory, including hidden files
+	$ ls /home/username	#Lists everything in the /home/username directory
+	$ ls -l 		#Lists permissions and user and group ownership
+	$ ls -F 		#Displays files and directories and denotes which are which
+
+------------------------------------------------------------------------------------
+
+Create Directory:
+
+	$ mkdir test 		#Makes a new directory called test in the current working directory if you have permission
+	$ mkdir /home/username/test 	#Makes a new directory called test at /home/username/test
+
+
+**************************************************************************************************************************
+ 						File Management 
+**************************************************************************************************************************
+
+Copy:
+
+	$ cp sydney.txt sydney2.txt 			#Copies a file called sydney.txt from the current directory and names 
+							 the copy sydney2.txt
+	$ cp /home/username/sydn ey.txt ~/sydney2.txt 	#Copies a file as described above but using the full path and the 
+							 home directory path.
+	$ cp -r folder folder.old 			#Copies a folder
+
+------------------------------------------------------------------------------------
+
+Move:
+	$ mv caleb.txt calebfinal.txt 			#Renames a file called caleb.txt to calebfinal.txt
+	$ mv /home/username/caleb.txt ~/calebfinal.txt 	#Renames a file as described above but using full paths
+	$ mv -i */home/username/new/ 			#Moves all files and directories in the current folder to a 
+							 directory called new
+
+------------------------------------------------------------------------------------
+
+Delete / Remove Directory:
+	
+	$ rm test.txt 		#Deletes the file test.txt in the current working directory
+	$ rm -rf test 		#Forces the deletion of the folder test and everything in it
+
+------------------------------------------------------------------------------------
+
+Create File:
+
+	$ touch emptyfile.txt 		#Creates an empty file named emptyfile.txt
+	$ touch file{1..20}.txt 	#Bulk creates files from file1.txt to file20.txt
+
+------------------------------------------------------------------------------------
+
+Concatenate:
+
+	$cat file1.txt 		#Displays the contents of file1.txt
+	$cat file1.txt | more 	#Displays the contents of file1.txt and pipes the output to more to add page breaks
+	$cat >file2.txt 	#Sends a user’s typed or copied content from the command line to file2.txt
+
+
+**************************************************************************************************************************
+ 						Environment Variables
+**************************************************************************************************************************
+
+	$env | more 				#Shows all environment variables with page breaks
+	$ export PATH=$PATH:/Home/chrijack/bin	#This command allows you to append your additional path to BASH and exists
+						 for the duration of the session
+
+
+
+
+

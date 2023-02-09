@@ -1,0 +1,12 @@
+--> Basic auth Authentication
+
+    Authorization: Basic base64-user-password(user:password)
+
+--------------------------------------------------------------------------
+
+--> API Key Authentication
+
+    Authorization: API-Key base64-token
+    x-api-key: auto generated key
+
+--------------------------------------------------------------------------

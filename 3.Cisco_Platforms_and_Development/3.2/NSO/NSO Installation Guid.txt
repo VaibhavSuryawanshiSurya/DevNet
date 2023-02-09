@@ -1,0 +1,76 @@
+Requirement:- Linux or Mac OS (For linux OS use DEVASC_VM setup)
+		# Following process should be follow on Linux OS(DEVASC_VM setup)
+		$sudo apt update
+		$sudo apt install python
+		$sudo apt install default-jdk
+		$sudo apt install xsltproc
+		$sudo apt install make
+		$sudo apt install ant
+
+NSO Local Install Guid :- https://developer.cisco.com/docs/nso/guides/#!nso-local-install/nso-local-install
+
+
+Go to the Cisco's official Software Download site :- https://software.cisco.com/download/home
+
+
+Search & Download free trial(Need Cisco login) --> Network Services Orchestrator
+
+
+Use Command to unpacking:- (Downloads)$ sh nso-6.0-freetrial.linux.x86_64.signed.bin --skip-verification
+
+
+Command to install NSO :-  (Downloads)$ ./nso-6.0.linux.x86_64.installer.bin --local-install ~/nso-6.0
+
+		#Environment set-up generated in /home/devasc/nso-6.0/ncsrc
+
+
+Source the Installation Path:- (HOME)$ source /home/devasc/nso-6.0/ncsrc
+
+
+Create Runtime Directory:- $ ncs-setup --dest /home/devasc/ncs-run
+
+
+Run NSO:- 	$ cd /home/devasc/ncs-run
+		$ ncs
+		$ ncs --status | grep status
+		
+
+Go to Browser hit url:- http://127.0.0.01:8080/login.html
+
+username:- admin
+password:- admin
+
+
+Stop NSO:- 
+		$ ncs --stop
+
+
+
+Install NEDs:
+
+Copy NEDs in tu that Running Directory:- (HOME)$ cp -R nso-6.0/packages/neds/cisco-ios-cli-3.0 ncs-run/packages/cisco-ios-cli-3.0
+
+
+	$ cd /home/devasc/ncs-run
+
+Create Network:- ~/ncs-run$ ncs-netsim create-network $NCS_DIR/packages/neds/cisco-ios-cli-3.0 3 c
+
+Start & Stop Network:-
+	$ncs-netsim start
+	@ncs-netsim stop
+
+Enter the CLI for router c1:-
+	$ncs-netsim cli-i c1
+	en
+	show run
+	exit
+
+Create the base configuration for NSO based on the generated routers
+
+	$ncs-setup --netsim-dir ./netsim --dest .
+
+	$ncs
+
+	$ncs_cli -u admin
+	$show configuration 
+	$show configuration devices device
