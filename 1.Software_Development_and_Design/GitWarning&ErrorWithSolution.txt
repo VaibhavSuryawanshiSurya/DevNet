@@ -1,0 +1,9 @@
+warning: LF will be replaced by CRLF in 3.Cisco_Platforms_and_Development/3.4/CUCM-AXL/AXLAPI-soapui-project.xml.
+The file will have its original line endings in your working directory
+
+solution:
+
+git config core.autocrlf true
+
+
+------------------------------------------------------------------------------------------------------------------------
