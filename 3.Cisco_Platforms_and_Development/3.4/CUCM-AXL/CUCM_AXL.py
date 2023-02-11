@@ -2,7 +2,7 @@ from ciscoaxl import axl
 CUCM = '10.10.20.1'
 CUCM_USER = "administrator"
 CUCM_PASSWORD = "ciscopsdt"
-CUCM_VERSION = '14.0'
+CUCM_VERSION = '12.0'
 
 ucm = axl(username=CUCM_USER,password=CUCM_PASSWORD,cucm=CUCM,cucm_version=CUCM_VERSION)
 print (ucm)
