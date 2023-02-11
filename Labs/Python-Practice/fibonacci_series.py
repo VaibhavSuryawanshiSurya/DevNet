@@ -2,13 +2,13 @@
 The number N is an input determined by the user using the script. """
 
 
-def fibonacci_series(N):
+def fibonacciSeries(N):
     """ A series of numbers in which each number (Fibonacci number) is the sum of the two preceding numbers. """
     
-    fs = [0,1]
+    fibonacci_series = [0,1]
     for i in range(2,N):
-        fs.append(fs[-1] + fs[-2])
-    return fs
+        fibonacci_series.append(fibonacci_series[-1] + fibonacci_series[-2])
+    return fibonacci_series
 
 def main():
     
@@ -16,8 +16,8 @@ def main():
     if N<=1:
         print("Please enter valid input greather than 1")
         main()
-    fs = fibonacci_series(N)
-    print(f"Fibonacci series of length {N} is", fs)
+    fibonacci_series = fibonacciSeries(N)
+    print(f"Fibonacci series of length {N} is", fibonacci_series)
 
 if __name__ == '__main__':
     main()
