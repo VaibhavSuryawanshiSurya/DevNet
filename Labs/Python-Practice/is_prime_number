@@ -2,7 +2,7 @@
 
 
 def isPrimeNumber(N):
-    """  """
+    """ A prime number is a natural number greater than 1, which is only divisible by 1 and itself """
 
     for i in range(2,N//2):
         if N%i == 0:
