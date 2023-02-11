@@ -3,11 +3,11 @@
 
 def factorialNumber(N):
     """ The factorial number is the product of an integer & all the integers below it till 1.
-        Factorial of 0 is also 1"""
+        Factorial of 0 is also 1."""
     
     if N == 0:
         return 1
-    
+
     return factorialNumber(N-1)*N
 
 def main():
