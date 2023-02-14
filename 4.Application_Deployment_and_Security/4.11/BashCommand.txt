@@ -20,6 +20,13 @@ Print Working Directory:
 List of Current Directory:
 
 	$ ls 			#Lists files and directories in the current working directory
+		-rwx-xr-x 1 devasc devasc 1095 Jun 17  2020  chromium_chromium.desktop
+			#First three letter represent the permissions of the file owner over the file.
+			#Second three letter represent the permissions of the group over the file.
+			#Third three letters represent the permissions others over the file.
+			#First 'devasc' indicates the user owner field and is the owner of the file.
+			#Second 'devasc' indicates the group owner field and is the group of the file.
+
 	$ ls -a 		#Lists everything in the current directory, including hidden files
 	$ ls /home/username	#Lists everything in the /home/username directory
 	$ ls -l 		#Lists permissions and user and group ownership
@@ -75,6 +82,23 @@ Concatenate:
 	$cat file1.txt | more 	#Displays the contents of file1.txt and pipes the output to more to add page breaks
 	$cat >file2.txt 	#Sends a user’s typed or copied content from the command line to file2.txt
 
+------------------------------------------------------------------------------------
+
+Review file permissions:
+
+	$ls Desktop -l
+	-rwx-xr-x 1 devasc devasc 1095 Jun 17  2020  chromium_chromium.desktop
+		#First three letter represent the permissions of the file owner over the file.
+		#Second three letter represent the permissions of the group over the file.
+		#Third three letters represent the permissions others over the file.
+		#First 'devasc' indicates the user owner field and is the owner of the file.
+		#Second 'devasc' indicates the group owner field and is the group of the file.
+
+------------------------------------------------------------------------------------
+
+Change file permissions and ownership:
+
+
 
 **************************************************************************************************************************
  						Environment Variables
@@ -86,5 +110,36 @@ Concatenate:
 
 
 
+**************************************************************************************************************************
+ 					Super User Commands for Administrative Access
+**************************************************************************************************************************
+
+to refresh the list of available packages installed on the VM:
+	$sudo apt-get update
+
+------------------------------------------------------------------------------------
+
+to find a specific package.
+	$sudo apt-cache search <package name>
+
+------------------------------------------------------------------------------------
+
+to install a package:
+	$sudo apt-get install <package name>
+
+**************************************************************************************************************************
+ 						Review System Administration
+**************************************************************************************************************************
+
+Shut down the computer:
+
+	$shutdown now
+	$check set date of the OS
+
+------------------------------------------------------------------------------------
+
+
+View and test the network configuration:
+	$ip adress
 
 
