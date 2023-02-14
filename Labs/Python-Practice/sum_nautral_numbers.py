@@ -13,8 +13,9 @@ def main():
     if N<1:
         print("Please enter valid natural numbers.")
         main()
-    sum_number = sumNaturalNumber(N)
-    print(f"Sum of first {N} natural numbers is", sum_number)
+    else:
+        sum_number = sumNaturalNumber(N)
+        print(f"Sum of first {N} natural numbers is", sum_number)
 
 
 if __name__ == '__main__':
