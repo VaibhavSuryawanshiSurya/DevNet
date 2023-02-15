@@ -4,6 +4,8 @@ return "I" "love" "programming" "in" "Python" in a list. """
 
 
 def separate_words(input_str):
+    """ This functions returns the list of separate words from the given sentance"""
+    
     words_list = input_str.split()
     return words_list
 
