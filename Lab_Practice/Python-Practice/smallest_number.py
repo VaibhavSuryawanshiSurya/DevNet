@@ -1,7 +1,7 @@
 """ Write a function that returns the smallest of three numbers. """
 
 def smallest_number(N1,N2,N3):
-    """ This functions returns the smallest numbers in given three number. """
+    """ This functions returns the smallest numbers from given three number. """
 
     if N1==N2 and N2==N3:
         print("All numbers are equal.")
