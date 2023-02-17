@@ -1,0 +1,57 @@
+################## GENERAL COMMANDS #############
+
+# Start the docker daemon
+$docker -d
+
+# Get help with Docker. Can also use –help on all subcommands
+$docker --help
+
+# Display system-wide information
+$docker info
+
+
+
+##################### IMAGES ######################
+#Build image
+$docker build -t <image_name:version>
+
+# List local images
+$docker images 
+
+# Delete an Image
+$docker rmi <image_name> 
+
+#################### CONTAINERS ###################
+#Run container
+$docker run -d -p <host_port(5000)>:<container_port(5000)> <image_name>
+
+# Start or stop an existing container:
+$docker start|stop <container_name> (or <container-id>)
+
+# Remove a stopped container:
+$docker rm <container_name>
+
+# To list currently running containers:
+$docker ps
+
+# List all docker containers (running and stopped):
+$docker ps --all
+
+# View resource usage stats
+$docker container stats
+
+#################### DOCKER HUB ###################
+# Login into Docker
+$docker login -u <username>
+# it ask also for password 
+
+# Publish an image to Docker Hub
+$docker tag <image_id> <username/repo>:version
+$docker push <username/repo>
+
+# Search Hub for an image
+$docker search <image_name>
+
+# Pull an image from a Docker Hub
+$docker pull <image_name>
+$docker pull vaibhavsuryawanshi/sample_docker_image:latest
