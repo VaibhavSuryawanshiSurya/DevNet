@@ -4,7 +4,7 @@ two “p”, etc. The function should return the count of only the letters that 
 function. """
 
 
-def number_of_letter_word(input_str):
+def number_of_each_letter(input_str):
     """ This functions returns the dictionary of letters with the count of that  letter 
     from the given sentance."""
     
@@ -24,7 +24,7 @@ def number_of_letter_word(input_str):
 def main():
 
     input_str = input("Enter the sentence:     ")
-    letter_dict = number_of_letter_word(input_str)
+    letter_dict = number_of_each_letter(input_str)
     print(letter_dict)
 
 if __name__ == "__main__":
