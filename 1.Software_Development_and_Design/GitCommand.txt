@@ -1,3 +1,8 @@
+----> git login command
+ 
+	git config --global user.name "VaibhavSuryawanshiSurya"
+	git config --global user.email "er.vaibhavsuryawanshi@gmail.com"
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ----> Initialize empty git repository
