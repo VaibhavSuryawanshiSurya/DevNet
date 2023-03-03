@@ -10,8 +10,11 @@ sudo apt install software-properties-common
 
 sudo apt-add-repository ppa:ansible/ansible
 
+sudo atp install python
+
 sudo apt-get update
 
+# install Ansible
 sudo apt-get install ansible -y
 
 #confirm working by running the ping module against localhost:
@@ -22,6 +25,14 @@ ansible localhost -m ping
 sudo nano /etc/hosts
 
 #create entry for 172.16.1.whatever  hostname
+#   --> 172.16.1.3     centos
+#   --> 172.16.1.40    ubuntu
+#   ctrl+X -> y -> Enter
+
+ping ubuntu
+ping centos
+
+
 #Create SSH key on ansible server
 ssh-keygen
 #accept the defaults
