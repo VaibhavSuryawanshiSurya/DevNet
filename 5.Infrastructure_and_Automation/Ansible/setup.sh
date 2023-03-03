@@ -10,7 +10,7 @@ sudo apt install software-properties-common
 
 sudo apt-add-repository ppa:ansible/ansible
 
-sudo atp install python
+sudo apt install python
 
 sudo apt-get update
 
