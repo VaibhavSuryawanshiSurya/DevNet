@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #1. Have a common username, that also has sudo level access#
 #2. Setup passwordless keys
 #3. Enable SSH on remote hosts sudo apt-get install openssh-server
