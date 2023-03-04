@@ -6,11 +6,11 @@
 
 sudo apt update
 
+sudo apt install python
+
 sudo apt install software-properties-common
 
 sudo apt-add-repository ppa:ansible/ansible
-
-sudo atp install python
 
 sudo apt-get update
 
@@ -45,22 +45,29 @@ ssh-copy-id -i .ssh/id_rsa.pub ubuntu
 #sudo apt-get install openssh-server
 
 #Now configure sudo so that it doesnt require a password
-ssh ubuntu1 
+ssh ubuntu
 sudo visudo
 #very bottom of file add this line:
 knox ALL=(ALL) NOPASSWD: ALL
 
 #then save and exit
+# re-execute ubove 3 comands for "centos" like "ubuntu"
+
 
 ###### INVENTORY #######
 sudo nano /etc/ansible/hosts
 #create GUI group like so at bottom of file
-# [linuxhosts]
+# [ubuntuhosts]
 # ubuntu
+# [centoshosts]
 # centos
+# [linuxhosts:children]
+# ubuntuhosts
+# centoshosts
+
 
 ## can also specify username to use like
-# ubuntu1 ansible_user=administrator
+# ubuntu ansible_user=administrator
 
 ansible -m ping all
 

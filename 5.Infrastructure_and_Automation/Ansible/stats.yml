@@ -1,0 +1,8 @@
+---
+- name: Git starts and write to desktop
+  hosts: linuxhosts 
+  task:
+    - name: get system status and info
+      shell: uname -a > /home/devasc/Desktop/output.txt
+    - name: print my usernsme 
+      shell: whoaim >> /home/devasc/Desktop/output.txt
