@@ -12,12 +12,7 @@ sudo apt install software-properties-common
 
 sudo apt-add-repository ppa:ansible/ansible
 
-<<<<<<< HEAD
-=======
-sudo apt install python
-
->>>>>>> 24a1c7fb4a1cbd62ce8296af2a29fdd406175dbc
-sudo apt-get update
+sudo apt update
 
 # install Ansible
 sudo apt-get install ansible -y
