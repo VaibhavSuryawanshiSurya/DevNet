@@ -1,0 +1,4 @@
+// need to make source file by using command $ source .ansible_env
+export ANSIBLE_NET_USERNAME = cisco
+export ANSIBLE_NET_PASSWORD = cisco
+
