@@ -1,6 +1,6 @@
 ---
 - name: Gather IOS-XE Facts
-  hosts: sandbox
+  hosts: sandbox-iosxe-recomm-1.cisco.com
   connection: local
   tasks:
     - name: Gather IOS Facts
